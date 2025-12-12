@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+        <pubdate>201907</pubdate>
+        <title>NOAA Office for Coastal Management Marsh Migration</title>
+        <geoform>Raster</geoform>
+        <pubinfo>
+          <pubplace>Charleston, SC</pubplace>
+          <publish>NOAA's Ocean Service, Office for Coastal Management (OCM)</publish>
+        </pubinfo>
+        <onlink>https://coast.noaa.gov/slr</onlink>
+        <onlink>https://coast.noaa.gov/digitalcoast/tools/slr</onlink>
+        <onlink>https://coast.noaa.gov/slrdata</onlink>
+        <onlink>https://coast.noaa.gov</onlink>
+        <onlink>https://coast.noaa.gov/data/digitalcoast/pdf/slr-marsh-migration-methods.pdf</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data were created as part of the National Oceanic and Atmospheric Administration Office for Coastal Management's efforts to create an online mapping viewer called the Sea Level Rise and Coastal Flooding Impacts Viewer. It depicts potential sea level rise and its associated impacts on the nation's coastal areas. The purpose of the mapping viewer is to provide coastal managers and scientists with a preliminary look at sea level rise and coastal flooding impacts. The viewer is a screening-level tool that uses nationally consistent data sets and analyses. Data and maps provided can be used at several scales to help gauge trends and prioritize actions for different scenarios. The Sea Level Rise and Coastal Flooding Impacts Viewer may be accessed at: https://coast.noaa.gov/slr.
+      
+      This metadata record describes the Marsh Migration data displayed in the SLR Viewer. These data represent the potential distribution of each wetland type based on their elevation and how frequently they may be inundated under potential future SLR scenarios, from 0 to 10ft of SLR. As sea level rises, higher elevations will become more frequently inundated, allowing for marsh migration landward. At the same time, some lower-lying areas will be so often inundated that the marshes will no longer be able to thrive, becoming lost to open water. These data are based on the assumption that specific wetland types exist within an established tidal elevation range, based on an accepted understanding of what types of vegetation can exist given varying frequency and time of inundation, as well as salinity impacts from such inundation.
+      
+      The data were created using the NOAA OCM Coastal Change Analysis Program (CCAP) land cover data, the SLR Viewer's digital elevation models, and NOAA VDatum tidal surfaces.
+      
+      The data are available in 0.5ft increments of net sea level change, from 0 to 10ft. To determine the appropriate level, the user must identify a SLR scenario and an applicable accretion rate for the area of interest. The easiest way to do this is to go into the SLR Viewer's Marsh Migration tab; select a location, SLR scenario, and timeframe; and identify the closest available 0.5ft increment to what the viewer shows. For more information, see the tutorial at https://coast.noaa.gov/elearning/marshmigration/.</abstract>
+      <purpose>The NOAA Office for Coastal Management has developed marsh migration data for use in the Office's Sea Level Rise and Coastal Flooding Impacts internet mapping application. These data depict potential distribution of marsh types based on potential future water levels due to sea level rise.</purpose>
+      <supplinf>A detailed methodology for producing these data can be found via the following url: https://coast.noaa.gov/data/digitalcoast/pdf/slr-marsh-migration-methods.pdf
+      
+      Attributes for this product are as follows: 0 Background, 2 High Intensity Developed, 3 Medium Intensity Developed, 4 Low Intensity Developed, 5 Developed Open Space, 8 All Uplands, 13 Palustrine Forested Wetland, 14 Palustrine Scrub/Shrub Wetland, 15 Palustrine Emergent Wetland, 17 Brackish/Transition Wetland, 18 Estuarine Wetland, 19 Unconsolidated Shore, 21 Open Water.
+      
+      These data are projected in the applicable NAD83 UTM zone and have a resolution of 10m.
+      </supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2010</begdate>
+          <enddate>2020</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>144.5</westbc>
+        <eastbc>-64.5</eastbc>
+        <northbc>49.276</northbc>
+        <southbc>-14.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>elevation</themekey>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bathymetry/Topography</themekey>
+        <themekey>elevation</themekey>
+        <themekey>Digital Elevation Model</themekey>
+        <themekey>DEM</themekey>
+        <themekey>CCAP</themekey>
+        <themekey>Coastal Change Analysis Program</themekey>
+        <themekey>Land Cover Analysis</themekey>
+        <themekey>Marsh Migration</themekey>
+        <themekey>Net Sea Level Change</themekey>
+        <themekey>sea level rise</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>US</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The dataset is provided as is, without warranty to its performance, merchantable state, or fitness for any particular purpose. The entire risk associated with the results and performance of this dataset is assumed by the user. This dataset should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.</useconst>
+    <datacred>Acknowledgment of the NOAA Office for Coastal Management as a data source would be appreciated in products developed from these data, and such acknowledgment, as is standard for citation and legal practices for data source, is expected.</datacred>
+  </idinfo>
+  <dataqual>
+		<logic>Data covers the tile scheme provided for the project area. Elevation data checked for anomalous elevation values outside expected range. Land cover classifications performed in accordance with NOAA OCM CCAP standards.</logic>
+    <complete>These data were derived from the most recent elevation data available at the date of processing that met project specifications, the most recent VDatum tidal model data available at the date of processing, and 2011 CCAP Land Cover data.</complete>
+    <lineage>
+    	<srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA Office for Coastal Management</origin>
+            <title>2010/2011 Coastal Change Analysis Program (CCAP) Land Cover Data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srccontr>2010/2011 land cover data were used to determine distribution of marsh land cover types. https://coast.noaa.gov/ccapftp/#/</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA Office for Coastal Management</origin>
+            <title>NOAA OCM SLR Viewer DEMs</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+      <srccontr>Digital elevation models for CONUS, HI, American Samoa, Guam, Saipan, Puerto Rico, and the U.S. Virgin Islands. https://coast.noaa.gov/slrdata/</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA National Ocean Service</origin>
+            <title>NOAA VDatum</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srccontr>VDatum tidal models were used to establish a relationship between the DEMs and various tidal datums. https://vdatum.noaa.gov/</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>A tidal zones raster is created for each increment of sea level rise (SLR) using a 10m DEM of a state and tidal surfaces created from VDatum representing MLLW, MTL, and MHHW. In addition, tidal surfaces for MHHWS (MHHW Spring) and a freshwater wetland-upland transition boundary are created from the VDatum MHHW tidal surface. This zones layer is an integer raster where each zone (i.e., MTL to MHHW) is coded. Select upland classes in the land cover source data are recoded in preparation for the next steps, resulting in a modified land cover raster where:
+        0 = Background
+        2 = High Intensity Developed
+        3 = Medium Intensity Developed
+        4 = Low Intensity Developed
+        5 = Developed Open Space
+        8 = All Uplands
+        13 = Palustrine Forested Wetland
+        14 = Palustrine Scrub/Shrub Wetland
+        15 = Palustrine Emergent Wetland
+        17 = Brackish/Transition Wetland
+        18 = Estuarine Wetland
+        19 = Unconsolidated Shore
+        21 = Open Water
+        
+        The tidal zones raster for each SLR increment (0-10ft in 0.5ft increments) is then combined with the recoded land cover raster for the state to create a raster where pixels have both a tidal zone and a land cover code. Using a ruleset that says which land cover types exist in each tidal zone, the combined raster is recoded to a new land cover raster where the land cover class has changed based on the tidal zone. See https://coast.noaa.gov/data/digitalcoast/pdf/slr-marsh-migration-methods.pdf for more detailed information.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave.</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Any conclusions drawn from the analysis of this information are not the responsibility of the NOAA Office for Coastal Management or its partners.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180710</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Avenue</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
