@@ -1,0 +1,74 @@
+1. Prepare county data to define the boundaries of the study area  
+
+- Find the spreadsheet that contains the attributes of the counties you chose for the study area  
+
+- Join this dataset using keys to the spatial attributes found in the USA Counties shapefile 
+
+- Create, save and name a new shapefile that contains all of the study area counties/independent cities  
+
+2. Prepare the marsh migration/sea level rise data  
+
+- Download and organize all the data from the C-CAP website into neat folders  
+
+	- Link to data: https://coastalimagery.blob.core.windows.net/ccap-landcover/CCAP_bulk_download/Sea_Level_Rise_Wetland_Impacts/index.html 
+
+- Use a for loop to iterate through all the different datasets (both by sea level rise rate and state) and do the following geospatial analysis steps 
+
+	- Extract relevant land cover classes (see table in thesis for the values) 
+
+	- Overlay with study area counties shapefile  
+
+	- Create new tiff file  
+
+	- Systematically name the tiff file based on the state and the SLR scenario.  
+
+	- Save the new files to a folder  
+
+3. Prepare the urban development data  
+
+- Download and organize all the data from the ICLUS website into neat folders  
+
+	- Link to data: https://www.epa.gov/gcx/iclus-downloads 
+
+	- Using the ICLUS land use data from version 2.1.1  
+
+	- Using HADGEM2 climate model as opposed to GISS  
+
+Use a for loop to iterate through the different datasets (by climate scenario) and do the following geospatial analysis steps  
+
+	- Reproject ICLUS into NAD83  
+
+	- Overlay with study area counties shapefile 
+
+	- Extract relevant land cover classes (see table in thesis for the values) 
+
+	- Create new tiff file  
+
+	- Systematically name the tiff file based on the year. 
+
+	- Save the new files to a folder 
+
+4. Join the two datasets to find the conflict zones  
+
+- Add parameters to allow for various sensitivities selected by the user via drop down menu 
+
+	- Sensitivities:  
+
+		- NOAA data – SLR  
+
+		- ICLUS data – projection year  
+
+- In a for loop for all 6 states in the study area:  
+
+	- Select the appropriate suite of marsh migration output tiffs based on user inputs 
+
+	- Select the appropriate suite of development output tiffs based on user inputs  
+
+	- Find where the tiff files overlap  
+
+	- Create and save the new file  
+
+	- Systematically name the new file 
+	- Set symbology
+
+5. Convert processes into a script-based ArcGIS tool 
